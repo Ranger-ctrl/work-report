@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# 本地配置与报告不进仓库
+config.json
+work-reports/

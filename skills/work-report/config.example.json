@@ -1,0 +1,20 @@
+{
+  "timezone": "Asia/Shanghai",
+  "day_start_hour": 0,
+  "week_start": "monday",
+  "authors": ["your-git-name", "you@example.com"],
+  "git_roots": ["~/code"],
+  "git_scan_depth": 3,
+  "sources": {
+    "claude_code": { "enabled": true, "path": "~/.claude/projects" },
+    "codex": { "enabled": true, "path": "~/.codex/sessions" },
+    "git": { "enabled": true }
+  },
+  "projects": [
+    { "match": "my-app-*", "name": "我的应用" },
+    { "match": "*/notes/*", "name": "个人笔记", "private": true }
+  ],
+  "output_dir": "~/work-reports",
+  "redact_patterns": [],
+  "limits": { "daily": 10, "weekly": 15 }
+}
