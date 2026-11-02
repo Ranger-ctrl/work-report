@@ -1,0 +1,12 @@
+ {
+    "name": "work-report",
+    "owner": { "name": "Ranger-ctrl" },
+    "plugins": [
+      {
+        "name": "work-report",
+        "source": "./",
+        "description": "日报/周报生成系统：从 Claude Code、Codex 会话和 Git
+  提交自动总结日报、周报"
+      }
+    ]
+  }
