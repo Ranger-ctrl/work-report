@@ -1,0 +1,11 @@
+{
+    "name": "work-report",
+    "version": "0.1.0",
+    "description": "日报/周报生成系统：从 Claude Code、Codex 会话和 Git
+  提交自动总结日报、周报",
+    "author": { "name": "Ranger-ctrl" },
+    "homepage": "https://github.com/Ranger-ctrl/work-report",
+    "repository": "https://github.com/Ranger-ctrl/work-report",
+    "license": "MIT",
+    "keywords": ["daily-report", "weekly-report", "日报", "周报"]
+  }
